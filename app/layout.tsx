@@ -6,6 +6,8 @@ import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.min.css';
 
 export const metadata: Metadata = {
 	title: {
@@ -58,6 +60,7 @@ export default function RootLayout({
 						</footer>
 					</div>
 				</Providers>
+				<ToastContainer />
 			</body>
 		</html>
 	);
