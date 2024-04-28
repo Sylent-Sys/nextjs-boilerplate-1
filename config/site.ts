@@ -35,6 +35,10 @@ export const siteConfig = {
 		{
 			label: "Aos",
 			href: "/aos",
+		},
+		{
+			label: "Table",
+			href: "/table",
 		}
 	],
 	navMenuItems: [
